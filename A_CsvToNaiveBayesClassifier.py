@@ -180,7 +180,7 @@ print ('WELCOME TO NAIVE BAYES CLASSIFIER')
 print ('Inputting data from CSV.......')
 
 # READ CSV FILE AND REMOVE
-dataOriginal = open('C:/Users/sahil/Documents/Business Analytics/Coursework - Fall Term/Data Science 2/Assignment1/Flying_Fitness.csv', 'r').readlines()
+dataOriginal = open('C:/Users/sahil/Documents/Analytics/Flying_Fitness.csv', 'r').readlines()
 data = []
 for line in dataOriginal:
 	row = line.strip().split(',')
